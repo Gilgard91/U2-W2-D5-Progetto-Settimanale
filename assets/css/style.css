@@ -4,14 +4,14 @@
 
 body {
   background-color: #141414;
-  
 }
-
-
-
 
 .custom-dropdown .dropdown-item {
   color: white;
+}
+
+.custom-btn {
+  padding: 0.2rem 0.6rem;
 }
 
 .custom-btn::after {
@@ -51,6 +51,14 @@ p {
   color: #828282;
 }
 
+.profile-netflix-logo {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    #141414  75%
+  );
+}
+
 .profile {
   padding-bottom: 0.5rem;
   border-bottom: 2px solid #313131;
@@ -62,79 +70,75 @@ p {
   border-bottom: 2px solid #313131;
 }
 
-#first{
-    border-bottom: 2px solid #313131;
+#first {
+  border-bottom: 2px solid #313131;
 }
 
-#second{
-    border-bottom: 2px solid #313131;
+#second {
+  border-bottom: 2px solid #313131;
 }
 
-.buttons button{
-    background-color:  #141414;
-    border: 1px solid  #828282;
-    color: #828282;
-    padding: 0.4rem 2rem;
-    font-size: 1.8rem;
-    margin: 2rem 1rem 0 0;
-    font-weight: 400;
+.buttons button {
+  background-color: #141414;
+  border: 1px solid #828282;
+  color: #828282;
+  padding: 0.4rem 2rem;
+  font-size: 1.8rem;
+  margin: 2rem 1rem 0 0;
+  font-weight: 400;
 }
 
-.buttons button:first-child{
-    background-color:  #f8f9fa;
-    color: #141414;
-    padding: 0.4rem 2rem;
-    font-size: 1.8rem;
-    margin: 2rem 1rem 0 0;
-    font-weight: 400;
+.buttons button:first-child {
+  background-color: #f8f9fa;
+  color: #141414;
+  padding: 0.4rem 2rem;
+  font-size: 1.8rem;
+  margin: 2rem 1rem 0 0;
+  font-weight: 400;
 }
 
-.strive{
-    background-color: #666666;
-    padding: 0.5rem 0.8rem;
-    font-size:1.3rem;
-    font-weight: 500;
-    
+.strive {
+  background-color: #666666;
+  padding: 0.5rem 0.8rem;
+  font-size: 1.3rem;
+  font-weight: 500;
 }
 
-h5{
-    color: #bebebe;
-    font-size: 1.5rem;
-    font-weight: 500;
+h5 {
+  color: #bebebe;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
-.profile-btn{
-    padding: 0.1rem 0.8rem;
-    margin-bottom: 2rem;
+.profile-btn {
+  padding: 0.1rem 0.8rem;
+  margin-bottom: 2rem;
 }
 
-.ratings{
-    background-color: #333333;
-    padding: 0.5rem 0.8rem;
+.ratings {
+  background-color: #333333;
+  padding: 0.5rem 0.8rem;
 }
 
-#edit{
-    background-color:  #141414;
-    border: 1px solid  #828282;
-    color: #828282;
-    padding: 0.3rem 2rem;
-    font-size: 1.3rem;
-    margin-bottom: 2rem;
-    
-    
-    
+#edit {
+  background-color: #141414;
+  border: 1px solid #828282;
+  color: #828282;
+  padding: 0.3rem 2rem;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
 }
 
-.form-check-input{
-    background-color: #141414;
-    border: 1px solid grey;
-    padding: rem;
+.form-check-input {
+  background-color: #141414;
+  border: 1px solid grey;
+  padding: rem;
 }
 
 #third > span {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
-.bi-check-square{
-    color:#666666
+.bi-check-square {
+  color: #666666;
 }
