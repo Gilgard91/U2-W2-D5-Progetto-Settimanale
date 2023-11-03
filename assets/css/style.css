@@ -4,7 +4,11 @@
 
 body {
   background-color: #141414;
+  
 }
+
+
+
 
 .custom-dropdown .dropdown-item {
   color: white;
@@ -14,35 +18,123 @@ body {
   margin: 0 0 0 2rem;
 }
 
-.container > .icons i{
-    color: #828282;
-    margin: 0.8rem;
-    font-size: 2rem;
+.container > .icons i {
+  color: #828282;
+  margin: 0.8rem;
+  font-size: 2rem;
 }
 
 .container > .row {
+  color: #828282;
+}
+
+span {
+  margin: 0.3rem;
+}
+
+.icons {
+  display: inline;
+}
+
+.footer {
+  margin-top: 6rem;
+}
+
+.service {
+  background-color: #141414;
+  color: #828282;
+  border: 1px solid #828282;
+  padding: 0.3rem 0.6rem;
+}
+
+p {
+  color: #828282;
+}
+
+.profile {
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #313131;
+  font-size: 5rem;
+  font-weight: 400;
+}
+
+.edit-content {
+  border-bottom: 2px solid #313131;
+}
+
+#first{
+    border-bottom: 2px solid #313131;
+}
+
+#second{
+    border-bottom: 2px solid #313131;
+}
+
+.buttons button{
+    background-color:  #141414;
+    border: 1px solid  #828282;
     color: #828282;
+    padding: 0.4rem 2rem;
+    font-size: 1.8rem;
+    margin: 2rem 1rem 0 0;
+    font-weight: 400;
 }
 
-span{
-    margin: 0.3rem;
+.buttons button:first-child{
+    background-color:  #f8f9fa;
+    color: #141414;
+    padding: 0.4rem 2rem;
+    font-size: 1.8rem;
+    margin: 2rem 1rem 0 0;
+    font-weight: 400;
 }
 
-.icons{
-    display: inline;
+.strive{
+    background-color: #666666;
+    padding: 0.5rem 0.8rem;
+    font-size:1.3rem;
+    font-weight: 500;
+    
 }
 
-.footer{
-    margin-top: 6rem;
+h5{
+    color: #bebebe;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
-.service{
+.profile-btn{
+    padding: 0.1rem 0.8rem;
+    margin-bottom: 2rem;
+}
+
+.ratings{
+    background-color: #333333;
+    padding: 0.5rem 0.8rem;
+}
+
+#edit{
+    background-color:  #141414;
+    border: 1px solid  #828282;
+    color: #828282;
+    padding: 0.3rem 2rem;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    
+    
+    
+}
+
+.form-check-input{
     background-color: #141414;
-    color: #828282;
-    border: 1px solid #828282;
-    padding: 0.3rem 0.6rem;
+    border: 1px solid grey;
+    padding: rem;
 }
 
-p{
-    color:#828282
+#third > span {
+    font-size: 1.2rem;
+}
+
+.bi-check-square{
+    color:#666666
 }
