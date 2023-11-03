@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  background-color: #141414;
+}
+
+.custom-dropdown .dropdown-item {
+  color: white;
+}
+
+.custom-btn::after {
+  margin: 0 0 0 2rem;
+}
+
+#netflix-carousel {
+    height: 500px; /* Imposta un'altezza fissa */
+    background: rgba(0, 0, 0, 0.5); /* Sfondo semitrasparente */
+  }
+  
+  .carousel-control-prev, .carousel-control-next {
+    font-size: 2rem; /* Dimensione dei controlli */
+    background: rgba(0, 0, 0, 0.5); /* Sfondo semitrasparente dei controlli */
+    border: none; /* Rimuovi il bordo dei controlli */
+    top: 50%; /* Posizione verticale dei controlli */
+  }
+  
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    color: #fff; /* Colore dei controlli */
+  }
